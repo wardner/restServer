@@ -1,11 +1,9 @@
-const env = require('../env.json');
-
 //========
 // Puerto
 //========
-process.env.PORT = process.env.PORT || env.port;
+process.env.PORT = process.env.PORT || 3000;
 
 //
 // MongoDB Atlas Conecction
 //
-process.env.DBURI = env.dburi || process.env.DBURI;
+process.env.DBURI = process.env.DBURI || 'mongodb://localhost:27017/productos';
