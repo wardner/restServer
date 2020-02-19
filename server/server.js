@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 app.use(require('./controllers/product'));
 
-mongoose.connect('mongodb://localhost:27017/productos', {
+mongoose.connect(process.env.DBURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
