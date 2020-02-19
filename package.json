@@ -1,0 +1,19 @@
+{
+    "name": "restserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "nodemon"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.1",
+        "mongoose-float": "^1.0.4",
+        "mongoose-unique-validator": "^2.0.3",
+        "nodemon": "^2.0.2"
+    }
+}
