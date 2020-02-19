@@ -96,7 +96,7 @@ app.post('/product', (req, res) => {
 
 });
 
-app.put('/producto/:barcode', (req, res) => {
+app.put('/product/:barcode', (req, res) => {
 
     let barcode = req.params.barcode;
     let body = req.body;
